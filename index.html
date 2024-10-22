@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>True or False</title>
+</head>
+<body>
+
+<h1>Logical table: C ∨ (¬A ∧ ¬B)</h1>
+
+<div class="btn">
+  <div class="lable">
+    <label for="inputA">A</label>
+    <input type="checkbox" id="inputA" value="true">
+    <label for="inputA">true</label>
+    <br>
+    <label for="inputB">B</label>
+    <input type="checkbox" id="inputB" value="true">
+    <label for="inputB">true</label>
+    <br>
+    <label for="inputC">C</label>
+    <input type="checkbox" id="inputC" value="true">
+    <label for="inputC">true</label>
+    <br>
+  </div>
+  <button id="calculateBtn">Result</button>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>¬A</th>
+            <th>¬B</th>
+            <th>¬A ∧ ¬B</th>
+            <th>C ∨ (¬A ∧ ¬B)</th>
+        </tr>
+    </thead>
+    <tbody id="truth-table-body">
+    
+    </tbody>
+</table>
+
+<script src="./app.js"></script>
+</body>
+</html>
+
+

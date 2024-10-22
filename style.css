@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 20px;
+}
+
+h1{
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+th {
+  background-color: #6c7ae0;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+label {
+  margin-right: 10px;
+}
+
+.btn
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.lable
+{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+#calculateBtn{
+  padding: 4px;
+  color: #6c7ae0;
+  font-size: 16px;
+  border: none;
+}
